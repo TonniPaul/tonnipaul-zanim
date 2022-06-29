@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root{
+   --topbg: rgba(220, 210, 216, 0.61);
+   --primary: #4F1C3A;
+   --border-grey: #969696;
+   --border-purple:#B727AD;
+   --btn: #9D2190;;
+}
+*{
+   margin: 0;
+   font-family:IBM Plex Sans;
+   box-sizing: border-box;
+}
+h4{
+font-size: 24px;
+font-weight: 400;
+line-height: 70px;
+letter-spacing: 0.04em;
+text-align: center;
+margin: 9rem auto 4rem;
+}
+h6{
+   width: 80%;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 60px;
+   letter-spacing: 0.04em;
+   color: #262525;
+}
+h6>span{
+   color: #5E1457;
+}
+hr{
+   border: 2px solid rgba(0, 0, 0, 0.1);
+   transform: rotate(0deg);
+}
+p{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: 0.04em;
+   color: #262525;;
+   margin-bottom: 2rem;
+}
+#top-cont{
+   background-color: var(--topbg);
+   width: 100%;
+   padding: 2rem auto 4rem;
+   height: 900px;
+   justify-items: center;
+}
+/* ------nav styling------ */
+nav{
+   display: flex;
+   width: 85%;
+   margin: auto;
+   justify-content: space-between;
+   justify-items: center;
+   align-items: center;
+   font-weight: 600;
+   font-size: 20px;
+   padding: 2rem 0;
+}
+.nav-link{
+   text-decoration: none;
+   color: var(--primary);
+}
+.zanim{
+   color: var(--primary);
+   font-family: Fira Sans;
+   font-weight: 600;
+   line-height: 1;
+   font-size: 40px;
+   letter-spacing: 0.04em;
+}
+.za{
+   text-decoration: underline;
+}
+ul{
+   display: grid;
+   grid-template-columns: repeat(4,auto);
+   grid-gap: 4rem;
+   list-style: none;
+}
+.nav-btn{
+   border: 2px solid var(--border-purple);
+   padding: .5rem 1.5rem;
+   text-decoration: none;
+   border-radius: 10px;
+}
+/* ------top aside styling------ */
+.top-aside{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 85%;
+   margin: auto;
+   margin-top: 3rem;
+   padding: 2rem 0 1rem ;
+}
+.top-left{
+   width: 85%;
+}
+
+.top-aside-btn{
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 26px;
+   color: #FFFFFF;
+   background-color: var(--border-purple);
+   padding: 1rem 2.5rem;
+   border-radius: 10px;
+}
+.top-right{
+   width: 80%;
+   justify-self: end;
+   align-self: flex-end;
+}
+/* --------Mid Container-------- */
+#calender{
+   background-color: #FFFFFF;
+   margin: 0;
+   width: 100%;
+}
+.mid-cont{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 3rem;
+   width: 80%;
+   height: 700px;
+   align-items: center;
+   justify-content: center;
+   margin:auto ;
+   padding: 2rem 0;
+}
+.mid-cont>img{
+  width: 80%;
+}
+.mid-cal>img{
+   float: right;
+   margin-top: 6rem;
+   justify-self: f
+}
+.body-btn{
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+      color: #171616;;
+      background-color: #fff;
+      padding: 1.3rem 4rem;
+      border: 2px solid var(--border-purple);
+      border-radius: 10px;
+      /* margin-top: 4rem; */
+   }
+
+.anl{
+   margin-left: 5rem;
+}
+#subscriptiom{
+   margin: 0;
+   width: 100%;
+   background: rgba(220, 210, 216, 0.08);
+}
+.subchild{
+   display: grid;
+   grid-gap: 3em;
+   width: 80%;
+   height: 600px;
+   margin: auto;
+   align-items: center;
+   justify-content: center;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-areas: 
+      'text text text'
+      'box1 box2 box3';
+}
+h3{
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 70px;
+   letter-spacing: 0.04em;
+   color: #262525;
+   text-align: center;
+   margin-top: 3rem;
+}
+.text{
+   grid-area: text;
+}
+.box1{
+   grid-area: box1;
+}
+.box2{
+   grid-area: box2;
+   height: 497px;
+   border:2px dashed;
+}
+.box3{
+   grid-area: box3;
+}
+.color{
+   background: #F9C6E4;
+   border-radius: 10px;
+}
+.height{
+   height: 448px;
+}
+.bxtxt{
+   display: flex;
+   flex-direction: column;
+   width: 241px;
+   align-items: center;
+   justify-content: center;
+}
