@@ -321,11 +321,61 @@ input{
    border-color: #9D2190;;
    color: #fff;
 }
+/* -------- footer styling-------- */
 footer{
    margin: 0;
    width: 100%;
    background-color: #4F1C3A;
-   height: 244px;
+   height: max-content;
+   color: #fff;
+   padding: 3rem auto;
+}
+.footercont{
+   width: 80%;
+   height: inherit;
+   margin: auto;
+   display: grid;
+   align-items: flex-start;
+   justify-content: center;
+   grid-template-columns: 2fr 2fr 1fr;
+}
+.social{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 1.5rem;
+}
+.icons{
+   display: grid;
+   width: 50%;
+   grid-template-columns: repeat(4, auto);
+   grid-gap: 1rem;
+}
+.white-z{
+   color: #fff;
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 88px;
+   margin: 0;
+}
+
+.social>p{
+   color: #fff;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+}
+.extras{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.items{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: .1rem;
+}
+.items>p{
+
+   color: #fff;
 }
 @media(min-width:1024px){
 
