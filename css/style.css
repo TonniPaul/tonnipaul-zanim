@@ -128,7 +128,6 @@ ul{
    border: 2px solid var(--border-purple);
 }
 .top-right{
-   width: 80%;
    justify-self: end;
    align-self: flex-end;
 }
@@ -411,6 +410,8 @@ footer{
    color: #FFFFFF;
    text-decoration: none;
 }
-@media(min-width:1024px){
-
+@media(min-width:1440px){
+   .wdth{
+      width: 70%;
+   }
 }
