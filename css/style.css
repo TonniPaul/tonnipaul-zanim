@@ -186,7 +186,7 @@ ul{
 }
 .subchild{
    display: grid;
-   grid-gap: 3em;
+   grid-gap: 1rem;
    width: 80%;
    height: 600px;
    margin: auto;
@@ -227,6 +227,7 @@ h3{
    background: #F9C6E4;
    border-radius: 10px;
    margin-bottom: 53m;
+   padding: 0 1rem;
 }
 .height{
    height: 448px;
