@@ -79,8 +79,7 @@ nav{
 }
 .za{
    text-decoration: underline;
-   margin: 0;
-   padding: 0;
+   font-family: Fira Sans;
 }
 ul{
    display: grid;
@@ -357,6 +356,7 @@ footer{
    margin-top: 1rem;
 }
 .white-z{
+   font-family: Fira Sans;
    color: #fff;
    font-weight: 600;
    font-size: 40px;
