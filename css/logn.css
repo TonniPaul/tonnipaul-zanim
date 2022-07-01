@@ -13,7 +13,7 @@
    height: auto;
    align-items: center;
    justify-content: center;
-   margin: 2rem auto 5rem;
+   margin: 2rem auto 10rem;
    text-align: center;
    color: #171616;
    grid-gap: 1rem;
@@ -72,6 +72,6 @@
 .tabmar{
    margin: 2rem auto;
 }
-#togglePassword{
+/* #togglePassword{
    pointer-events: visible;
-}
+} */
