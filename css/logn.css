@@ -1,19 +1,77 @@
-
+:root{
+   --shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+}
 
 
 #mid-login{
    height: auto;
    margin: 0;
-   /* display: grid;
-   align-items: center;
-   justify-content:center; */
+   background: #fff;
 }
-
 .mdlg{
    display: grid;
    height: auto;
    align-items: center;
    justify-content: center;
-   margin: 2rem auto;
+   margin: 2rem auto 5rem;
    text-align: center;
+   color: #171616;
+   grid-gap: 1rem;
+}
+.su{
+   font-weight: 500;
+   font-size: 36px;
+}
+.mdlg>p{
+   font-weight: 500;
+   font-size: 16px;
+   margin: auto;
+}
+.supbtn{
+   height: auto;
+   border: 0 #fff;
+   box-shadow: var(--shadow);
+   padding: 1rem 1rem;
+   margin: 1rem auto;
+   display: grid;
+   grid-template-columns: auto;
+   justify-content: center;
+   align-items: center;
+}
+.supbtn>a{
+   text-decoration: none;
+   color: inherit;
+   font-size: 16px;
+   font-weight: 500;
+}
+.supbtn>a>img{
+   margin-right: 3rem;
+}
+.or{
+   color: #2D2C2C;
+   font-weight: 700;
+}
+.lginput{
+   width: 80%;
+   background: #FFFFFF;
+   border: 2px solid #969696;
+   border-radius: 10px;
+   margin: .8rem auto;
+}
+.lginput>input{
+   width: 90%;
+   margin: 0 auto;
+   padding: 1rem 2rem;
+   outline: none;
+   border: 0 ;
+}
+.no-eye{
+   opacity: 0;
+   pointer-events: none;
+}
+.tabmar{
+   margin: 2rem auto;
+}
+#togglePassword{
+   pointer-events: visible;
 }

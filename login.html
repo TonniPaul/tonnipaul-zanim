@@ -4,6 +4,11 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- ------font awesome------  -->
+   <script src="https://kit.fontawesome.com/7fe568590b.js" crossorigin="anonymous"></script>
+   <!-- ------ favicon ------  -->
+   <link rel="shortcut icon" href="images/ik.svg" type="image/x-icon">
+   <!-- ------ css linking ------ -->
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/logn.css">
    <title>Log in</title>
@@ -28,11 +33,14 @@
          <h1 class="su">Sign Up</h1>
          <p>By signing up, I agree to the Zanim Privacy Policy and Terms of Service.</p>
          <div class="ggsu">
-            <a href="#"><img src="images/ggicon.svg" alt=""/>Sign up with Google </a>
-               <p>OR</p>
-                  <div><input type="text"></div>
-                  <div><input type="text"></div>
-                  <a href="#" class="top-aside-btn">Get Started with Zanim</a>
+            <div class="supbtn">
+               <a href="#"><img src="images/ggicon.svg" alt=""/>Sign up with Google </a>
+            </div>
+            
+               <p  class="or">OR</p>
+                  <div class="lginput"><input type="email" placeholder="Enter your email address"><img src="images/eye.svg" alt="" class="no-eye"></div>
+                  <div class="lginput"><input type="password" id="password" placeholder="Create Password"><img src="images/eye.svg" alt="" id="togglePassword"></div>
+                  <a href="#" class="tabmar top-aside-btn">Get Started with Zanim</a>
          </div>
       </div>
    </section>
@@ -71,7 +79,7 @@
             <a href="#">English  <i class="fa-solid fa-sort-down"></i></a>
          </div>
       </div>
-
+<script src="scripts/login.js"></script>
    </footer>
 </body>
 </html>
