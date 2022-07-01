@@ -70,10 +70,9 @@ nav{
 .nav-link{
    text-decoration: none;
    color: var(--primary);
-   d
 }
 .zanim{
-   color: var(--primary);
+   color:var(--primary);
    font-family: Fira Sans;
    font-weight: 600;
    line-height: 1;
