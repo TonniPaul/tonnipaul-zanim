@@ -1,0 +1,64 @@
+
+#contact-cont, #middcccnt{
+   width: 100%;
+   margin: 0;
+   padding: 1rem auto;
+   background-color: #fff;
+}
+.mddd{
+   margin:0 auto;
+   width: 80%;
+   text-align: center;
+}
+.mddd>h1{
+   font-weight: 500;
+   font-size: 36px;
+   padding: 1rem;
+   margin:0;
+}
+.mddd>p{
+   font-weight: 400;
+   font-size: 24px;
+   margin:.5rem auto;
+}
+.mddd>p{
+   margin: 0;
+}
+.twocard{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 7rem;
+   margin-top: 4rem;
+   height: inherit;
+}
+.mddd>input{
+   display: block;
+}
+.carccont{
+   background: #F9C6E4;
+   margin: 1rem auto;
+   padding: 2.5rem;
+   height: auto;
+   display: grid;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: left;
+   border-radius: 10px;
+}
+.carccont>p{
+   margin: 0;
+}
+.carccont>h3{
+   font-weight: 500;
+   font-size: 24px;
+   text-align: left;
+   padding: 0;
+   margin: 0;
+}
+.carccont>i{
+   display:inline-block ;
+   width: 100%;
+   text-align: right;
+   font-size: 34px;
+   margin: 0;
+}

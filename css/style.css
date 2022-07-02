@@ -407,8 +407,28 @@ footer{
    color: #FFFFFF;
    text-decoration: none;
 }
+.tpasbt{
+   width: 85%;
+   height: inherit;
+   padding: 1rem 0;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: flex-end;
+}
+.dsds{
+   width: max-content;
+   margin: 0;
+   grid-column: 3;
+   display: flex;
+   justify-self: flex-end;
+   background: #9D2190;
+}
 @media(min-width:1440px){
    .wdth{
       width: 60%;
+   }
+   .tpasbt{
+      width: 70%;
    }
 }
