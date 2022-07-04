@@ -2,7 +2,7 @@ function askName() {
   let username = sessionStorage.getItem('username');
 
   if (username === null) {
-      username = prompt("To make your time on this website better, please enter your name.");
+      username = prompt("Please enter your name.");
   }
 
   if (username != null) {
