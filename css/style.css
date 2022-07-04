@@ -49,7 +49,6 @@ p{
 }
 #top-cont{
    background-color: var(--topbg);
-   max-width: 100%;
    width: 100%;
    padding: 2rem;
    height: max-content;
@@ -123,7 +122,6 @@ nav{
 .top-aside-btn{
    text-decoration: none;
    font-weight: 600;
-   max-width: fit-content;
    width: max-content;
    font-size: 20px;
    line-height: 26px;
@@ -465,23 +463,23 @@ footer{
    }
    .nav-menu{
       pointer-events: none;
-      max-width: 62%;
+      display: block;
       position: absolute;
       right: -100%;
       opacity: 0;
       top: 100px;
-      width: 100%;
+      width: 80%;
       flex-direction: column;
-      transition: 2s ease-in-out;
+      transition: 3s ease-out;
       background-color: #5E1457;
       gap: 1rem;
       padding: 1rem;
    }
    .active{
       opacity: 1;
-      right: 13vw;
+      right: auto;
       pointer-events: all;
-      transition: 1s ease-in-out;
+      transition: 3s ease;
    }
 
    
@@ -664,7 +662,7 @@ footer{
    }
    .wdth{
       width: 100%;
-      padding: .5rem;
+      padding: 0;
    }
    .top-right>img{
       width: 100%;
