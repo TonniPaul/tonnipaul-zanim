@@ -12,14 +12,14 @@
    <link rel="stylesheet" href="css/style.css">
    <title>Zanim</title>
 </head>
-<body>
+<body onload="askName()">
       <section id="top-cont">
 
          <nav class="wdth">
-            <h5 class="zanim nav-brand"><span class="za">Za</span>nim</h5>
+            <h5 onclick="welcome()" class="zanim nav-brand"><span class="za">Za</span>nim</h5>
             <ul class="nav-menu" id="vvv">
                <div class="tplnk">
-                  <li class="nav-item"><a href="index.html" class="nav-link">  Home  <i class="fa-solid fa-sort-down"></i></a></li>
+                  <li class="nav-item"><a href="index.html" class="nav-link" >  Home  <i class="fa-solid fa-sort-down"></i></a></li>
                   <li class="nav-item"><a href="#" class="nav-link">  Features  <i class="fa-solid fa-sort-down"></i></a></li>
                   <li class="nav-item"><a href="#" class="nav-link">  Packages  <i class="fa-solid fa-sort-down"></i></a></li>
                   <li class="nav-item"><a href="contact.html" class="nav-link">   Help  <i class="fa-solid fa-sort-down"></i></a></li>
@@ -35,8 +35,10 @@
                <div class="burger"></div>
              </div>
          </nav>
-
+         <h1 id="user"></h1>
+         <h1 id="stranger"></h1>
          <div class="top-aside wdth">
+            
             <div class="top-left">
                <h6 class="top-text">Need to <span> manage a project  </span>with a team?</h6>
                <p>Manage your teams easily and effectively with Zanim software</p>

@@ -12,6 +12,7 @@
    font-family:IBM Plex Sans;
    box-sizing:border-box; 
    max-width: 100%;
+   
 }
 body{
    background-color: #FFF;
@@ -19,6 +20,14 @@ body{
    font-size: 24px;
    margin: 0;
    padding: 0;
+   overflow-x: hidden;
+}
+#user, #stranger{
+   width: 80%;
+   margin: 0 auto;
+   padding: 0 2rem 0;
+   color: #5E1457;
+   font-size: 20px;
 }
 h4{
 font-weight: 400;
@@ -465,12 +474,11 @@ footer{
       pointer-events: none;
       display: block;
       position: absolute;
-      right: -100%;
       opacity: 0;
       top: 100px;
       width: 80%;
       flex-direction: column;
-      transition: 3s ease-out;
+      transition: 0.8s ease-out;
       background-color: #5E1457;
       gap: 1rem;
       padding: 1rem;
@@ -479,7 +487,7 @@ footer{
       opacity: 1;
       right: auto;
       pointer-events: all;
-      transition: 3s ease;
+      transition: 1s ease;
    }
 
    
@@ -544,7 +552,7 @@ footer{
     }
     /* ------ending dropdown------ */
    .wdth{
-      width: 95%;
+      width: 100%;
       padding: 1rem 2rem;
    }
    .top-aside{

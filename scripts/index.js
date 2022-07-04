@@ -1,12 +1,18 @@
-let userName = prompt("What is your name:");
-alert(`Hello ${userName}, 
-Welcome!!!
+function askName() {
+  let username = sessionStorage.getItem('username');
 
-This page is Still under construction!!.
-   =================================
-Developed by TonniPaul for practice reasons.
+  if (username === null) {
+      username = prompt("To make your time on this website better, please enter your name.");
+  }
 
-`);
+  if (username != null) {
+      document.getElementById("user").innerHTML = "Hello, " + username;
+      sessionStorage.setItem('username', username);
+  } else {
+      document.getElementById("stranger").innerHTML = "Welcome, Stranger!";
+  }
+}
+
 const menuBtn = document.getElementById('nvit');
 let menuOpen = false;
 let navMenu = document.getElementById('vvv');
