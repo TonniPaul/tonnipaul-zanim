@@ -466,7 +466,7 @@ footer{
       top: 100px;
       width: 100%;
       flex-direction: column;
-      transition: 0.9s ease;
+      transition: 2s ease-in-out;
       background-color: #5E1457;
       gap: 1rem;
       padding: 1rem;
@@ -475,7 +475,7 @@ footer{
       opacity: 1;
       right: 13vw;
       pointer-events: all;
-      transition: 0.9s ease;
+      transition: 1s ease-in-out;
    }
 
    

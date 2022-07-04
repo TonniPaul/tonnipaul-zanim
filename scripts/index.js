@@ -19,7 +19,6 @@ menuBtn.addEventListener('click', () => {
    }else {
     menuBtn.classList.remove('open');
     navMenu.classList.remove("active");
-    console.log(navMenu);
     menuOpen = false;
   }
 });
