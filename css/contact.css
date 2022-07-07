@@ -9,6 +9,7 @@
    margin:0 auto;
    width: 80%;
    text-align: center;
+   padding-bottom: 5rem;
 }
 .mddd>h1{
    font-weight: 500;
@@ -27,13 +28,11 @@
 .twocard{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   grid-gap: 7rem;
+   grid-gap: 6rem;
    margin-top: 4rem;
    height: inherit;
 }
-.mddd>input{
-   display: block;
-}
+
 .carccont{
    background: #F9C6E4;
    margin: 1rem auto;
@@ -44,6 +43,7 @@
    justify-content: center;
    text-align: left;
    border-radius: 10px;
+   width: 80%;
 }
 .carccont>p{
    margin: 0;
@@ -61,4 +61,71 @@
    text-align: right;
    font-size: 34px;
    margin: 0;
+}
+.nf{
+   font-size: 24px;
+   font-weight: 500;
+   padding-top: 2rem;
+}
+.fill{
+   font-weight: 400;
+   font-size: 20px;
+   color: #2D2C2C;
+}
+/* ======FORM STYLING====== */
+.frm{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   padding: 2rem;
+   
+}
+.frm>input{
+   width: 60%;
+   padding: 1.5rem;
+   margin: auto;
+   border: 2px solid #969595;
+   border-radius: 10px;
+   font-size: 17px;
+}
+#message{
+   padding: 3rem 1.5rem;
+}
+#smt{
+   width: max-content;
+   padding: .8rem 3rem;
+   border: 0;
+}
+#smt:hover{
+   border: 2px solid var(--btn);
+}
+
+/* ======MEDIA QUERIES====== */
+@media(max-width:900px){
+   .twocard{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+   }
+   .frm{
+      width: 100%;
+   }
+   .frm>input{
+      width: 80%;
+   }
+}
+@media(max-width:500px){
+   .frm{
+      width: 100%;
+   }
+   .mddd{
+      width: 100%;
+   }
+   .frm>input{
+      width: 100%;
+   }
+   .carccont{
+      width: 100%;
+   }
 }

@@ -15,7 +15,7 @@
    <link rel="stylesheet" href="css/logn.css">
    <title>Log in</title>
 </head>
-<body>
+<body onload="askName()">
    <section id="log-cont"> 
 
       <nav class="wdth">
@@ -39,7 +39,10 @@
           </div>
       </nav>
    </section>
+   <h1 id="user" class="wdth">Hello, Stranger</h1>
 
+   <h1 id="user" class="wdth"></h1>
+   
    <section id="mid-login">
       <div class="wdth mdlg">
          <h1 class="su">Sign Up</h1>
@@ -50,11 +53,13 @@
             </div>
             
                <p  class="or">OR</p>
-                  <div class="lginput"><input type="email" placeholder="Enter your email address"><img src="images/eye.svg" alt="" class="no-eye"></div>
+                  <div class="lginput"><input type="email" placeholder="Enter your email address">
+                     <img src="images/eye.svg" alt="" class="no-eye">
+                  </div>
                   <div class="lginput tabmar"><input type="password" id="password" placeholder="Create Password">
                      <i class="bi bi-eye-slash" id="togglePassword"></i>
                   </div>
-                  <a href="#" class="top-aside-btn">Get Started with Zanim</a>
+                  <a href="#" class="top-aside-btn ">Get Started with Zanim</a>
          </div>
       </div>
    </section>

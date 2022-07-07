@@ -9,7 +9,7 @@ function askName() {
       document.getElementById("user").innerHTML = "Hello, " + username;
       sessionStorage.setItem('username', username);
   } else {
-      document.getElementById("stranger").innerHTML = "Welcome, Stranger!";
+      document.getElementById("stranger").classList.remove('shows');
   }
 }
 

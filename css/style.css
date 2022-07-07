@@ -22,10 +22,10 @@ body{
    padding: 0;
    overflow-x: hidden;
 }
-#user, #stranger{
+#user{
    width: 80%;
    margin: 0 auto;
-   padding: 0 2rem 0;
+   padding: 1rem 2rem 0;
    color: #5E1457;
    font-size: 20px;
 }
@@ -59,7 +59,7 @@ p{
 #top-cont{
    background-color: var(--topbg);
    width: 100%;
-   padding: 2rem;
+   padding: 0 2rem 3rem;
    height: max-content;
    justify-items: center;
 }
@@ -83,7 +83,7 @@ nav{
 }
 .tplnk{
    display: flex;
-   gap: 1rem;
+   gap: .9rem;
 }
 .nav-link{
    text-decoration: none;
@@ -121,8 +121,7 @@ nav{
    grid-template-columns: repeat(2, 1fr);
    width: 80%;
    margin: auto;
-   margin-top: 3rem;
-   padding: 2rem 0 1rem ;
+   padding-bottom:1rem ;
 }
 .top-left{
    width: 85%;
@@ -453,11 +452,17 @@ footer{
       width: 60%;
    }
    nav{
-      padding-top: 3rem;
+      padding-top: 1rem;
    }
    .tpasbt{
       width: 70%;
    }
+   #user, #stranger{
+      width: 60%;
+   }
+}
+@media(max-width:900px){
+ 
 }
 @media(max-width:900px){
    h6, h3{
@@ -478,7 +483,7 @@ footer{
       top: 100px;
       width: 80%;
       flex-direction: column;
-      transition: 0.8s ease-out;
+      transition: 1s ease-out;
       background-color: #5E1457;
       gap: 1rem;
       padding: 1rem;
@@ -564,7 +569,7 @@ footer{
       padding: 2rem;
    }
    .top-aside-btn, .body-btn{
-      max-width: 100px;
+      width: max-content;
       font-size: 20px;
       padding: 1rem;
    }
@@ -663,6 +668,17 @@ footer{
    .copy{
    justify-self: center;
    }
+   /* ======CONTACT PAGE CONTENT SHARED====== */
+   .tpasbt{
+      width: 80%;
+      display: block;
+      text-align: center;
+   }
+   .dsds{
+      width: max-content;
+      margin: 0 auto;
+      display: block;
+   }
 }
 @media(max-width:500px){
    .email{
@@ -696,5 +712,7 @@ footer{
    .social{
       width: 100%;
    }
-
+   #user{
+      font-size: 16px;
+   }
 }

@@ -74,6 +74,15 @@
 .tabmar{
    margin: 2rem auto;
 }
-/* #togglePassword{
-   pointer-events: visible;
-} */
+/* ======MEDIA QUERIES====== */
+@media (max-width:500px){
+   .mdlg{
+      width: 80%;
+   }
+   .lginput>input{
+      width: 80%;
+   }
+   .top-aside-btn{
+      font-size: 15px;
+   }
+}

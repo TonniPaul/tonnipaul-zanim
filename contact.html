@@ -13,7 +13,7 @@
    <link rel="stylesheet" href="css/contact.css">
    <title>Zanim</title>
 </head>
-<body>
+<body  onload="askName()">
       <section id="contact-cont">
 
          <nav class="wdth">
@@ -37,6 +37,9 @@
              </div>
          </nav>
       </section>
+
+      <h1 id="user" class="wdth">Hello, Stranger</h1>
+      
       <section  class="cont-tp-btn">
          <div class="tpasbt">
             <a href="#" class="top-aside-btn dsds">Get Started with zanim</a>
@@ -59,13 +62,16 @@
                   <i class="fa-solid fa-arrow-right-long"></i>
                </div>
             </div>
-            <p>Not found what you are looking for? </p>
-            <h5>Fill the form below and we will get back to you with answers.</h5>
+            <p class="nf">Not found what you are looking for? </p>
+            <h5 class="fill">Fill the form below and we will get back to you with answers.</h5>
+            
+            <form class="frm">
+               <input type="email" name="email" id="email" placeholder="Enter your email address">
+               <input type="text" name="subject" id="subject" placeholder="Subject">
+               <input type="text" name="message" id="message" placeholder="What do you need help with?">
+               <input type="submit" value="Submit" class="top-aside-btn" id="smt">
+            </form>
 
-            <input type="email" name="email" id="email" placeholder="Enter your email address">
-            <input type="text" name="subject" id="subject" placeholder="Subject">
-            <input type="text" name="message" id="message" placeholder="What do you need help with?">
-            <input type="submit" value="Submit" class="top-aside-btn">
          </div>
       </section>
       <footer id="footer">
