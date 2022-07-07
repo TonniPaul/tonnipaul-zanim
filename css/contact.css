@@ -102,6 +102,11 @@
 }
 
 /* ======MEDIA QUERIES====== */
+@media(min-width:1441px){
+   .mddd{
+      width: 60%;
+   }
+}
 @media(max-width:900px){
    .twocard{
       display: flex;
